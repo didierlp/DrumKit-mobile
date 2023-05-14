@@ -1,0 +1,49 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+body{
+    background-image: url(./img/pexels-orbital-studio-11300427\ \(2\).jpg);
+}
+
+.contenedor{
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.fila{
+    
+}
+.pad{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    margin: 5px;
+    border: 3px solid rgba(61, 171, 249, 0.639);
+    background-color: rgba(30, 136, 229, 0.567);
+    border-radius: 15px;
+    font-size: 30px;
+    font-family:  'Righteous', cursive;
+    color: rgb(176, 240, 240);
+    transition: all 0.07s;
+} 
+
+.playing{
+transform: scale(1.1);
+border: 4px double rgba(84, 182, 252, 0.639);
+box-shadow:  0 0 20px  rgba(133, 204, 255, 0.639) ;
+
+}
+
+
+@media (max-width: 500px) {
+    .col-2.pad {
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .body{
+        background-size: cover;    }
+  }
