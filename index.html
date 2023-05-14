@@ -38,6 +38,8 @@
 
 <script src="./assets/script.js"></script>
  <script>
+     window.alert("Crea un ritmo de bateria !!");
+
     window.addEventListener("keydown", e => {
         const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
         const pad = document.querySelector(`.pad[data-key="${e.keyCode}"]`);
