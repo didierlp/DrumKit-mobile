@@ -1,3 +1,5 @@
+window.alert("Crea un ritmo presionando los pads!!");
+
 function playSound(e) {
     const audio = document.querySelector(`audio[data-key="${this.dataset.key}"]`);
     const pad = document.querySelector(`.pad[data-key="${this.dataset.key}"]`);
